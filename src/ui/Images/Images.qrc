@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file alias="ListView.svg"  >Icons/list-view.svg</file>
+        <file alias="Menu.svg"      >Icons/menu.svg</file>
+        <file alias="Option.svg"    >Icons/option.svg</file>
+        <file alias="Pause.svg"     >Icons/pause.svg</file>
+        <file alias="Play.svg"      >Icons/play.svg</file>
+        <file alias="Remove.svg"    >Icons/remove.svg</file>
+        <file alias="Selected.svg"  >Icons/selected.svg</file>
+        <file alias="Stop.svg"      >Icons/stop.svg</file>
+        <file alias="TileView.svg"  >Icons/tile-view.svg</file>
+        <file alias="UnSelected.svg">Icons/un-selected.svg</file>
+</qresource>
+</RCC>

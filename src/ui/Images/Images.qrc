@@ -10,5 +10,7 @@
         <file alias="Stop.svg"      >Icons/stop.svg</file>
         <file alias="TileView.svg"  >Icons/tile-view.svg</file>
         <file alias="UnSelected.svg">Icons/un-selected.svg</file>
+        <file alias="Add.svg"       >Icons/add.svg</file>
+        <file alias="Import.svg"    >Icons/import.svg</file>
 </qresource>
 </RCC>

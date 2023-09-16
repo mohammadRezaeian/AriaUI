@@ -8,10 +8,16 @@ Window {
     height: 480
     visible: true
     title: qsTr("Hello World")
+//    Rectangle{
+//        anchors.centerIn: parent
+//    }
 
-    CustomToolBarButtons{
-        width: parent.width*0.5
-        height: parent.height*0.5
-        anchors.centerIn: parent
+    PageODM {
+
+        width: parent.width*0.2
+        height: parent.height
+
+        anchors.left: parent.left
     }
+
 }

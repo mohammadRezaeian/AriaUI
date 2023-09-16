@@ -1,14 +1,16 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 
+import Ui 1.0
+
 Item {
 
     property color  colorButton: "transparent"
-    property string colorText: "blue"
-    property string textButton: "Not Set"
+    property string colorText:   Themes.textButtons
+    property string textButton:  Themes.textShowButton
+    property real   readiusButton: Themes.radiusButtons
 
-    property real   readiusButton: 5
-
+    property real   sizeWidthText: textCustom.width
     signal          clickedButton()
 
     Rectangle{
@@ -28,6 +30,7 @@ Item {
 
 
     Text {
+        id: textCustom
 
         text: qsTr(textButton)
         color: colorText
